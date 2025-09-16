@@ -4,7 +4,7 @@ from openai import AzureOpenAI
 
 endpoint = "https://foundry-091525.openai.azure.com/openai/deployments/gpt-35-turbo/chat/completions?api-version=2025-01-01-preview"
 deployment = "gpt-35-turbo"
-subscription_key = "3OpzjBAZkAslPFdtdTPYGc2GKxWMtJDbxZ8Rt9FVKlQeN1bzkx6VJQQJ99BIACYeBjFXJ3w3AAAAACOG0f49"
+subscription_key = "###"
 
 # Initialize Azure OpenAI client with key-based authentication
 client = AzureOpenAI(
